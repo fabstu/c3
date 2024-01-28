@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+if [ $# -ne 2 ]; then
+	echo "Usage: $0 <sample-folder> <sample-name>"
+	exit 1
+fi
+
+touch "$1/$2.in"
+touch "$1/$2.ans"

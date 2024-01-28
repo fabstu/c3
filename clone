@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+if [ "$#" -ne 3 ]; then
+    echo "Usage: $0 path x y"
+    exit 1
+fi
+
+p=$1
+x=$2
+y=$3
+
+cp "${p}/${x}.in" "${p}/${y}.in"
+cp "${p}/${x}.ans" "${p}/${y}.ans"

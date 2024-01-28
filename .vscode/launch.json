@@ -1,0 +1,26 @@
+{
+	"configurations": [
+		{
+			"name": "portals",
+			"type": "lldb",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/source/portals",
+			"stdio": [
+				"${workspaceFolder}/samples/portals/1.in",
+				null,
+				null
+			],
+		},
+		{
+			"name": "resolution",
+			"type": "lldb",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/source/resolution",
+			"stdio": [
+				"${workspaceFolder}/samples/resolution/1.in",
+				null,
+				null
+			],
+		},
+	],
+}
